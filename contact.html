@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,72 +10,82 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets\css\styles.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
-    <!-- Header box with title and menu -->
-    <div class=clearfixwBrdr>
-        <div class=headerBox>
-            <h1>Tony Brown</h1>
-        </div>
-    
-        <div class=navBox>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="Profile.html">Profile</a></li>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </div>
-    
-    </div>
+    <div id="container">
+        <!-- Header box with title and menu -->
+        <div class="navCont">
+            <div id="navLeft">
+                <h1>Tony Brown</h1>
+            </div>
 
-<!-- Body of page -->
-<div class="clearfix">
-    
-        <!-- Contact Form -->
-        <div class="squareboxSection">
-            <table><tr><th><h2>Contact</h2></th></tr></th></table>
-            <br>
-            <p>Provide your contact information so we can assist you with your inquiry.</p>
-            <br>
-            <form action="thanks.html">
-                First name:<br>
-                <input type="text" name="firstname" value="">
-                <br>
-                Last name:<br>
-                <input type="text" name="lastname" value="">
-                <br>
-                Email:<br>
-                <input type="email" name="custemail" value="">
-                <br>
-                Message:<br>
-                <input type="text" name="message" value="">
-                <br><br>
-                <input type="submit" value="Submit">
-              </form>
-            <br>
+            <div id="navRight">
+                <ul>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="Profile.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
 
-        <!-- Links -->
-        <div class="squareboxAside">
-            <h3>Connect with Me</h3>
-            <br>
-            <p>
+        <!-- Body of page -->
+        <div class="clearfix">
+
+            <!-- Contact Form -->
+            <div id="squareboxSection">
+                <h2>Contact</h2>
+                <br>
+                <p>Provide your contact information so we can assist you with your inquiry.</p>
+                <br>
+                <form action="thanks.html">
+                    First name:
+                    <br>
+                    <input type="text" name="firstname" value="">
+                    <br> Last name:
+                    <br>
+                    <input type="text" name="lastname" value="">
+                    <br> Email:
+                    <br>
+                    <input type="email" name="custemail" value="">
+                    <br> Message:
+                    <br>
+                    <input type="text" name="message" value="">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+                <br>
+            </div>
+
+            <!-- Links -->
+            <div id="squareboxAside">
+                <h3>Connect with Me</h3>
+                <br>
+                <p>
                     <a href="https://github.com/TonyBCodes" target="_blank">
                         <img src="assets\images\github_square_black-128.png" alt="GitHub" style="width:40px;height:40px;border:0;">
                     </a>
                     <a href="https://www.linkedin.com/in/tony-brown-62737617/" target="_blank">
                         <img src="assets\images\linkedin_square_color-128.png" alt="LinkedIn" style="width:40px;height:40px;border:0;">
                     </a>
-                    <a href="https://stackoverflow.com/users/9230681/tonyb?tab=profile" target="_blank" >
+                    <a href="https://stackoverflow.com/users/9230681/tonyb?tab=profile" target="_blank">
                         <img src="assets\images\overflow-128.png" alt="Stack Overflow" style="width:40px;height:40px;border:0;">
                     </a>
-            </p>
+                </p>
 
+            </div>
         </div>
-    </div>
 
-    <!-- Footer -->
-    <div class="footerBox">
-        <p>&copy; 2018 Tony Brown</p>
-    </div>
-    
+        <!-- Footer -->
+        <div id="footerBox">
+            <p>&copy; 2018 Tony Brown</p>
+        </div>
+
 </body>
