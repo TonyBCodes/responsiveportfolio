@@ -1,0 +1,161 @@
+body{
+    background-color: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin: 10px;
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+
+h2, h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+h2{
+    font-size: 30px;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width:200px;
+    margin:10px;
+    margin-right: 20px;
+}
+
+form{
+    margin-left: 20px;
+}
+
+.headerBox{
+    height: 80px;
+    width: 400px;
+    background-color: #4aaaa5;
+    margin-left: 0px auto;
+	margin-right: 0px auto;
+	text-align: center;
+	vertical-align: center;
+    font-size: 60px;
+    float: left;
+}
+
+.navBox{
+    height: 80px;
+    width: auto;
+    margin: 0px auto;
+	text-align: center;
+    vertical-align: center;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    height: 80px;
+    margin: 0;
+    padding-top: 30px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    list-style-position:inside;
+    border: 1px solid #4aaaa5;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #4aaaa5;
+}
+
+.clearfixwBrdr::after{
+    content:"";
+    display:block;
+    clear:both;
+    border-bottom: 1px solid #4aaaa5;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.squareboxSection{
+    margin: 0px auto;
+    margin-right: 0px;
+    margin-top: 30px;
+    height: auto;
+    min-height: 200px;
+    width: 638px;
+    border: 1px solid lightslategray;
+    padding: 5px;
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+
+textover{
+    z-index:-1;
+    position:relative;
+}
+
+.squareboxAside{
+    margin: 0px auto;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 253px;
+    border: 1px solid lightslategray;
+    padding-left: 15px;
+    padding-top: 25px;
+    margin-left: 0px;
+    float: right;
+    height: 150px;
+    overflow-y: hidden;
+    text-align: center;
+    align-items: center;
+    text-justify: inter-word;
+}
+
+.footerBox{
+    position: fixed;
+    bottom: 0;
+    width: 960px;
+    margin 0px auto;
+	height: 50px;	
+	text-align: center;
+	vertical-align: center;
+	background-color: #666666;
+	border-top: 4px solid #4aaaa5;
+}
